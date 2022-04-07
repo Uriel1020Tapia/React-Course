@@ -6,6 +6,11 @@ import MyComponent from "./components/RComponent";
 import RProperties from "./components/Properties";
 
 import State from "./components/State";
+import RenderizadoCondicional from "./components/RenderizadoCondicional";
+import RenderizadoElementos from "./components/RenderizadoElementos";
+import {EventsES6,EventsES7,MasSobreEventos} from "./components/Events";
+import Padre from "./components/ComunicacionComponentes";
+import CicloVida from "./components/CicloVida";
 
 function App() {
   return (
@@ -41,6 +46,20 @@ function App() {
         />
         <hr/>
         <State/>
+        <br/>
+        <RenderizadoCondicional/>
+        <br/>
+        <RenderizadoElementos/>
+        <br></br>
+        <EventsES6/>
+        <hr/>
+        <EventsES7/>
+        <hr/>
+        <MasSobreEventos/>
+        <br></br>
+        <Padre/>
+        <br/>
+        <CicloVida/>
       </header>
     </div>
   );
