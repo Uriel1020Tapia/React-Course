@@ -43,13 +43,13 @@ export  class EventsES7 extends Component{
     //arrow function
 
     increment = (e)=>{
-        console.log("increment es7");
+        // console.log("increment es7");
         this.setState({
             contador:this.state.contador + 1
         })
     }
     decrement = (e)=>{
-        console.log("decrement es7");
+        // console.log("decrement es7");
         this.setState({
             contador:this.state.contador - 1
         })
@@ -80,11 +80,11 @@ const Button = ({myOnClick})=> <button className="btn rbtn-primary" onClick={myO
 export class MasSobreEventos extends Component{
 
     handleClick = (e,msg)=>{
-        console.log(e);
-        console.log(e.target);
-        console.log(e.nativeEvent);
-        console.log(e.nativeEvent.target);
-        console.log(msg)
+        // console.log(e);
+        // console.log(e.target);
+        // console.log(e.nativeEvent);
+        // console.log(e.nativeEvent.target);
+        // console.log(msg)
     }
 
     render(){

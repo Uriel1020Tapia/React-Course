@@ -11,6 +11,16 @@ import RenderizadoElementos from "./components/RenderizadoElementos";
 import {EventsES6,EventsES7,MasSobreEventos} from "./components/Events";
 import Padre from "./components/ComunicacionComponentes";
 import CicloVida from "./components/CicloVida";
+import AjaxApis from "./components/AjaxAPIS";
+import ContadorHooks from "./components/ContadorHooks";
+import ScrollHooks from "./components/ScrollHooks";
+import RelojHooks from "./components/RelojHook";
+import AjaxHooks from "./components/AjaxHooks";
+import HooksCustom from "./components/HooksCustom";
+import Referencias from "./components/Referencias";
+import Formulario from "./components/Formularios";
+import Estilos from "./components/Estilos";
+import ComponentesEstilizados from "./components/ComponenteEstilizados";
 
 function App() {
   return (
@@ -60,6 +70,26 @@ function App() {
         <Padre/>
         <br/>
         <CicloVida/>
+        <hr/>
+        <AjaxApis/>
+        <hr/>
+          <ContadorHooks titulo="Seguidores"/>
+          <ScrollHooks/>
+          <hr/>
+          <RelojHooks/>
+          <hr/>
+          <AjaxHooks/>
+          <hr/>
+          <HooksCustom/>
+          <hr/>
+          <Referencias/>
+          <hr/>
+          <Formulario/>
+          <hr/>
+          <Estilos/>
+          <hr/>
+          <ComponentesEstilizados/>
+          <hr/>
       </header>
     </div>
   );
